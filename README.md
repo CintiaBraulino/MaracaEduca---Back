@@ -7,7 +7,7 @@
 [](https://www.java.com/)
 [](https://spring.io/projects/spring-boot)
 [](https://www.postgresql.org/)
-[](https://www.google.com/search?q=https://github.com/seu-usuario/seu-repositorio)
+[](https://www.google.com/search?q=https://github.com/CintiaBraulino/MaracaEduca---Back)
 
 Este repositório contém o código-fonte do **backend** do sistema de mapeamento de escolas públicas do município de Maracanaú. Desenvolvido com uma arquitetura de **microsserviços**, o projeto visa oferecer uma solução robusta, escalável e de fácil manutenção para gerenciar informações sobre escolas, autenticar usuários, e futuramente, exibir dados geolocalizados e gerar relatórios.
 
@@ -144,9 +144,9 @@ Para rodar este backend localmente, você precisará ter instalado:
     spring.datasource.username=seu_usuario_postgresql
     spring.datasource.password=sua_senha_postgresql
     spring.datasource.driver-class-name=org.postgresql.Driver
-    spring.jpa.hibernate.ddl-auto=update # 'update' cria/atualiza tabelas automaticamente
+    spring.jpa.hibernate.ddl-auto=update
     spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
-    spring.jpa.show-sql=true # Útil para debug
+    spring.jpa.show-sql=true
     ```
 
     **Lembre-se de substituir `seu_usuario_postgresql` e `sua_senha_postgresql` pelas suas credenciais.**
@@ -168,11 +168,11 @@ Cada microsserviço é uma aplicação Spring Boot independente e deve ser execu
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio/backend
+    git clone https://github.com/CintiaBraulino/MaracaEduca---Back
+    cd /MaracaEduca---Back
     ```
 
-    **(Lembre-se de substituir `seu-usuario/seu-repositorio` pelo caminho real do seu projeto no GitHub.)**
+    **(Lembre-se de substituir `/MaracaEduca---Back` pelo caminho real do seu projeto no GitHub.)**
 
 2.  **Para cada microsserviço (repita os passos para `auth-service` e `schools-data-service`):**
 
